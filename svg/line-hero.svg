@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1230" height="680" viewBox="0 0 1230 680" fill="none">
+    <g id="line-hero">
+    <g id="bg-hero" filter="url(#filter0_b_1649_40456)">
+    <path class="path-line-hero" d="M39 671H1053.56C1059.28 671 1064.89 669.418 1069.76 666.43L1207.2 582.188C1216.39 576.552 1222 566.543 1222 555.758V39.9999C1222 22.8792 1208.12 9 1191 9H39C21.8792 9 8 22.8792 8 40V640C8 657.121 21.8792 671 39 671Z" stroke="url(#paint0_linear_1649_40456)" stroke-width="2"/>
+    </g>
+    </g>
+    <defs>
+    <filter id="filter0_b_1649_40456" x="-25" y="-24" width="1280" height="728" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feGaussianBlur in="BackgroundImageFix" stdDeviation="16"/>
+    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1649_40456"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1649_40456" result="shape"/>
+    </filter>
+    <linearGradient id="paint0_linear_1649_40456" x1="1223.53" y1="339.923" x2="-52.9866" y2="340.126" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#87ea5c"/>
+    <stop offset="1" stop-color="#33BEFF"/>
+    </linearGradient>
+    </defs>
+    </svg>
