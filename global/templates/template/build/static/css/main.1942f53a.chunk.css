@@ -1,2 +1,504 @@
-.item:hover{opacity:.8}@font-face{font-family:"icomoon";src:url(/global/templates/template/build/static/media/icomoon.215f2b06.eot);src:url(/global/templates/template/build/static/media/icomoon.215f2b06.eot#iefix) format("embedded-opentype"),url(/global/templates/template/build/static/media/icomoon.65db3ac9.ttf) format("truetype"),url(/global/templates/template/build/static/media/icomoon.b703e232.woff) format("woff"),url(/global/templates/template/build/static/media/icomoon.6aac08af.svg#icomoon) format("svg");font-weight:400;font-style:normal;font-display:block}[class*=" icon-"],[class^=icon-]{font-family:"icomoon"!important;speak:none;font-style:normal;font-weight:400;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-brackets:before{content:"\e90c"}.icon-youtube:before{content:"\e90d"}.icon-affiliates:before{content:"\e900"}.icon-chevron:before{content:"\e901"}.icon-cpa:before{content:"\e902"}.icon-earn:before{content:"\e903"}.icon-html5:before{content:"\e904"}.icon-hybrid:before{content:"\e905"}.icon-link:before{content:"\e906"}.icon-promote:before{content:"\e907"}.icon-quotes:before{content:"\e908"}.icon-share:before{content:"\e909"}.icon-sign_up:before{content:"\e90a"}.icon-xml:before{content:"\e90b"}.confirmButton{padding:.5em 3.7em!important}.confirm-content{display:flex;justify-content:center;align-items:center;padding:25px;box-shadow:0 -1px 2px 0 rgba(0,0,0,.05)}
-/*# sourceMappingURL=main.1942f53a.chunk.css.map */
+.authorisationGrandWrapper-bc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--page-background);
+    padding-right: 532px;
+    z-index: 0;
+    .logo {
+      margin: 4rem 0 0 6rem;
+      max-width: 10rem;
+    }
+  
+    .loginBackgroundImage {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+  }
+  
+  .authorisationFormCol-bc {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 512px;
+    height: calc(100% - 40px);
+    border-radius: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border: solid 0.5px rgba(0, 0, 0, 0.12);
+    background-color: var(--background);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    xalign-items: center;
+    xjustify-content: center;
+    // Optional support to confirm scroll behavior makes sense in IE10
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+  
+    .login-holder-item-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      font-size: 2.4rem;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .registration-content-loader {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .affiliateDocumentVerify {
+      display: flex;
+      flex-direction: column;
+      padding: 6rem 8rem;
+      flex: 1;
+      justify-content: space-between;
+    }
+  }
+  
+  .authorisationFormColInner-bc {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 76px;
+    padding-right: 76px;
+    margin: auto;
+  
+    .cha-ra-group .crs-holder {
+      padding: 0.8rem;
+    }
+  }
+  
+  .authorisationFormTitle-bc {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.37;
+    text-align: left;
+    color: #1c82f4;
+    padding-bottom: 30px;
+  }
+  
+  .authorisationFormSubtitle-bc {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.6);
+    padding-bottom: 30px;
+  }
+  
+  .authorisationFormCallToRegistration-bc {
+    margin-top: 3rem;
+  
+    p {
+      font-size: 16px;
+      line-height: 1.38;
+      color: rgba(var(--background-sc-rgb), 0.5);
+      padding-bottom: 30px;
+  
+      a {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.38;
+        color: #1c82f4;
+      }
+    }
+  
+    .title {
+      font-size: 3.2rem;
+      color: #1473e6;
+      margin-bottom: 3.2rem;
+    }
+    .pageName {
+      text-transform: capitalize;
+      font-size: 2.8rem;
+      margin-bottom: 3.2rem;
+    }
+    .info {
+      font-size: 1.6rem;
+    }
+    .uploader {
+      margin-top: 3.2rem;
+      margin: 3.2rem 0;
+      .grid-child {
+        width: 100% !important;
+      }
+    }
+  
+    .signOut {
+      margin-top: 10px;
+    }
+  }
+  
+  .authorisationFormField-bc {
+    width: 100%;
+    //height: 48px;
+    //border-radius: 6px;
+    //border: solid 1px rgba(var(--background-sc-rgb), 0.2);
+    background-color: var(--background);
+    margin-bottom: 30px;
+    //padding-left: 20px;
+    //padding-right: 20px;
+    color: rgba(var(--background-sc-rgb), 0.7);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.36;
+    text-align: left;
+    appearance: auto;
+  
+    &::placeholder {
+      color: rgba(60, 64, 67, 0.5);
+    }
+  
+    .showPassword {
+      cursor: pointer;
+    }
+  }
+  
+  .cloudInvisible {
+    .uploader-header {
+      display: none;
+    }
+  }
+  
+  .invalid {
+    .image-holder.with-border {
+      box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  .authorisationFormForgotPass-bc {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: left;
+    color: #1c82f4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .authorisationFormConfirmTerms-bc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+  
+    input {
+      background-color: rgba(var(--background-sc-rgb), 0.6);
+      width: 16px;
+      height: 16px;
+      appearance: auto;
+    }
+  
+    p {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(var(--background-sc-rgb), 0.6);
+      padding-left: 15px;
+    }
+  }
+  
+  .authorisationFormSubmit-bc {
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #1c82f4;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.38;
+    color: #ffffff;
+    margin: 3rem 0;
+  }
+  
+  .authorisationGrandBodyWrapper-bc {
+    width: 100%;
+    height: 100%;
+    padding-left: 154px;
+    padding-right: 154px;
+    display: flex;
+    flex-direction: column;
+    xalign-items: center;
+    xjustify-content: center;
+    // Optional support to confirm scroll behavior makes sense in IE10
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+  }
+  
+  .authorisationGrandBody-bc {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  .authorisationGrandTitle-bc {
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 46px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: #1c82f4;
+    text-transform: uppercase;
+  }
+  
+  .authorisationGrandSubtitle-bc {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.7);
+    padding-bottom: 16px;
+  }
+  
+  .authorisationGrandParagraph-bc {
+    font-size: 16px;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.5);
+    padding-bottom: 30px;
+  }
+  
+  .authorisationGrandIconList-bc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .authorisationGrandIconListEl-bc {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    p {
+      font-size: 14px;
+      line-height: 1.36;
+      text-align: center;
+      text-transform: capitalize;
+      color: rgba(var(--background-sc-rgb), 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100px;
+      word-break: break-word;
+  
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        border: solid 0.5px rgba(0, 0, 0, 0.12);
+        background-color: var(--background);
+        margin-bottom: 12px;
+        padding: 1.6rem;
+      }
+    }
+  }
+  
+  .restorePopup-bc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  
+    .restorePopupContainer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  
+      .restoreText-bc {
+        margin-top: 3.8rem;
+      }
+      .buttonContainer {
+        width: 100%;
+        padding: 0 2rem;
+  
+        .restoreButton-bc {
+          width: 100%;
+          margin-top: 3rem;
+        }
+      }
+    }
+  }
+  
+  @media all and (max-width: 1280px) {
+    .authorisationGrandBodyWrapper-bc {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  
+    .authorisationGrandTitle-bc {
+      padding-bottom: 15px;
+      font-size: 37px;
+    }
+  
+    .authorisationGrandSubtitle-bc {
+      font-size: 20px;
+    }
+  
+    .authorisationGrandIconList-bc {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media all and (max-width: 1000px) {
+    .authorisationFormCol-bc {
+      position: relative;
+      width: calc(100% - 40px);
+      margin-left: 40px;
+  
+      .affiliateDocumentVerify {
+        padding: 3rem 2rem 2rem;
+      }
+    }
+  
+    .authorisationGrandWrapper-bc {
+      position: relative;
+      padding-right: 0;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: flex-start;
+  
+      .logo {
+        margin: 3rem 0;
+      }
+    }
+  
+    .authorisationGrandBodyWrapper-bc {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .authorisationGrandBody-bc {
+      max-width: none;
+    }
+  }
+  
+  .bo-submenu a {
+    font: 600 1.4rem var(--font-family) !important;
+  }
+  
+  @media all and (max-width: 600px) {
+    .authorisationFormCol-bc {
+      position: relative;
+      width: calc(100% - 20px);
+      margin-left: 0;
+      right: 0;
+      top: 10px;
+    }
+  
+    .authorisationFormColInner-bc {
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 30px;
+    }
+  
+    .authorisationFormTitle-bc {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 1.38;
+      color: #1c82f4;
+    }
+  
+    .authorisationFormSubtitle-bc {
+      font-size: 20px;
+    }
+  
+    .authorisationGrandBodyWrapper-bc {
+      margin-top: 40px;
+    }
+  
+    .authorisationGrandTitle-bc {
+      padding-top: 0;
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+  
+    .authorisationGrandSubtitle-bc {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .authorisationGrandIconListEl-bc {
+      margin-right: 18px;
+    }
+  }
+  .login-holder-item-wrap-heading {
+    text-align: center;
+  }
+  .aff-desktop {
+    text-align: start;
+  }
+  
+  .login-holder-item-wrap-text {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .formInputFeald-bc {
+    margin: 3rem 0;
+  }
+  
+  //Registration Popup Success
+  
+  .registrationConfirmWrapper-bc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+  
+  .registrationSuccessTitle-bc {
+    width: 100%;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    text-align: center;
+    color: #3c4043;
+    padding-bottom: 3rem;
+  }
+  
+  .registrationSuccessImage-bc {
+    margin-bottom: 1rem;
+  }
+  
+  .registrationSuccessText-bc {
+    width: 27.6rem;
+    font-size: 1.4rem;
+    line-height: 1.36;
+    text-align: center;
+    color: #3c4043;
+  }
+  

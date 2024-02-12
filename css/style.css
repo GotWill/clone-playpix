@@ -18,7 +18,7 @@
 }
 
 .color-primary {
-  color: #0C6CC6;
+  color: #87ea5c;
 }
 
 .color-secondary {
@@ -674,7 +674,7 @@ canvas {
   transition: 1s ease;
 }
 .bg-icon:hover {
-  background-color: #0C6CC6;
+  background-color: #87ea5c;
 }
 .bg-icon:hover path {
   stroke: #fff;
@@ -940,7 +940,7 @@ canvas {
   background-image: url("../svg/card-gradient.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  border-bottom: 2px solid #0C6CC6;
+  border-bottom: 2px solid #87ea5c;
   border-radius: 12px;
   padding: 48px 32px;
 }
@@ -950,7 +950,7 @@ canvas {
   top: 0;
   left: 0;
   backface-visibility: hidden;
-  border-bottom: 2px solid #0C6CC6;
+  border-bottom: 2px solid #87ea5c;
   border-radius: 12px;
   background-image: url("../svg/card-stroke.svg");
   background-size: 100%;
@@ -967,7 +967,7 @@ canvas {
   background-image: url("../svg/card-gradient.svg");
   background-size: 100%;
   background-repeat: no-repeat;
-  border-bottom: 2px solid #0C6CC6;
+  border-bottom: 2px solid #87ea5c;
   border-radius: 12px;
   padding: 48px 32px;
 }
@@ -977,7 +977,7 @@ canvas {
   top: 0;
   left: 0;
   backface-visibility: hidden;
-  border-bottom: 2px solid #0C6CC6;
+  border-bottom: 2px solid #87ea5c;
   border-radius: 12px;
   background-image: url("../svg/card-stroke.svg");
   background-size: 100%;
@@ -2417,8 +2417,8 @@ nav {
   height: 8px;
   border-radius: 1px;
   transition: 0.5s ease;
-  border-right: 2px solid #0C6CC6;
-  border-top: 2px solid #0C6CC6;
+  border-right: 2px solid #87ea5c;
+  border-top: 2px solid #87ea5c;
   transform: rotate(135deg) translate3d(0, 10px, 0);
 }
 .accordion-button:hover {
@@ -3227,3 +3227,82 @@ select{
 .bg-grey-color{
   background: #121212 !important;
 }
+
+
+
+.page-load {
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a09;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: fixed;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+
+.eng-bg-wrapper {
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.25),rgba(0,0,0,.25)),linear-gradient(to bottom,transparent 74%,var(--black));
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  overflow: hidden;
+}
+
+
+.img-bg-wrapper {
+  width: 300%;
+  height: 100%;
+  opacity: .05;
+  background-image: url('https://assets-global.website-files.com/657ca5726f2f5cb5efa7ccaa/657ca5726f2f5cb5efa7cd04_pattern-bg.svg');
+  background-position: 0 0;
+  background-size: contain;
+}
+
+.logo-load{
+  max-height: 60px;
+  max-width: 100px;
+} 
+
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: scaleX(1.5) scaleY(1.5);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+.logo-load-anim {
+  max-height:60px; 
+  max-width: 100px;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  animation: logoAnimation 1s ease-in-out infinite;
+}
+
+.eng-page-load {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex
+}
+
+
+

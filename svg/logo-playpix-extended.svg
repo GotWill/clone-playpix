@@ -37,7 +37,7 @@
     </filter>
     <linearGradient id="paint0_linear_1599_42033" x1="54.132" y1="32.2084" x2="8.87318" y2="32.2048" gradientUnits="userSpaceOnUse">
     <stop stop-color="#87ea5c"/>
-    <stop offset="1" stop-color="#33BEFF"/>
+    <stop offset="1" stop-color="#87ea5c"/>
     </linearGradient>
     <linearGradient id="paint1_linear_1599_42033" x1="27.6049" y1="43.9184" x2="23.7408" y2="50.2528" gradientUnits="userSpaceOnUse">
     <stop stop-color="#004E96"/>

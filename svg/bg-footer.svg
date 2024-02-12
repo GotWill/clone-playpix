@@ -1601,8 +1601,8 @@
     </g>
     <defs>
     <linearGradient id="paint0_linear_1547_42311" x1="720" y1="770" x2="720.085" y2="164" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#33BEFF" stop-opacity="0.1"/>
-    <stop offset="1" stop-color="#33BEFF" stop-opacity="0.25"/>
+    <stop stop-color="#87ea5c" stop-opacity="0.1"/>
+    <stop offset="1" stop-color="#87ea5c" stop-opacity="0.25"/>
     </linearGradient>
     <clipPath id="clip0_1547_42311">
     <rect width="1440" height="770" fill="white"/>

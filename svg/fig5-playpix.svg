@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1082" height="440" viewBox="0 0 1082 439" fill="none">
     <g id="fig5-playpix">
-    <circle id="fig5-circle4" class="fig5-circle4" cx="671.883" cy="221.5" r="179.5" fill="#33BEFF" fill-opacity="0.1"/>
-    <circle id="fig5-circle3" class="fig5-circle3" cx="671.883" cy="221.5" r="153.094" fill="#33BEFF" fill-opacity="0.2"/>
-    <circle id="fig5-circle2" class="fig5-circle2" cx="671.883" cy="221.5" r="119.5" fill="#33BEFF" fill-opacity="0.3"/>
-    <circle id="fig5-circle1" class="fig5-circle1" cx="671" cy="221" r="75" fill="#33BEFF" fill-opacity="0.3"/>
-    <circle id="Ellipse 25" cx="671" cy="221" r="179.5" stroke="#0C6CC6"/>
+    <circle id="fig5-circle4" class="fig5-circle4" cx="671.883" cy="221.5" r="179.5" fill="#87ea5c" fill-opacity="0.1"/>
+    <circle id="fig5-circle3" class="fig5-circle3" cx="671.883" cy="221.5" r="153.094" fill="#87ea5c" fill-opacity="0.2"/>
+    <circle id="fig5-circle2" class="fig5-circle2" cx="671.883" cy="221.5" r="119.5" fill="#87ea5c" fill-opacity="0.3"/>
+    <circle id="fig5-circle1" class="fig5-circle1" cx="671" cy="221" r="75" fill="#87ea5c" fill-opacity="0.3"/>
+    <circle id="Ellipse 25" cx="671" cy="221" r="179.5" stroke="#87ea5c"/>
     <g id="fig5-center">
     <g id="Frame 2478">
-    <rect x="711" y="181" width="80" height="80" rx="40" transform="rotate(90 711 181)" fill="#33BEFF"/>
+    <rect x="711" y="181" width="80" height="80" rx="40" transform="rotate(90 711 181)" fill="#87ea5c"/>
     <g id="Interface, Essential/Ticket, Group, Circle">
     <g id="Group">
     <g id="Group_2">
@@ -20,55 +20,55 @@
     <g id="fig5-icon3" class="fig5-icon3">
     <g id="drive">
     <g id="bg" filter="url(#filter0_ddd_1647_40416)">
-    <rect x="643" y="18" width="52" height="52" rx="12" fill="#0C6CC6"/>
+    <rect x="643" y="18" width="52" height="52" rx="12" fill="#87ea5c"/>
     <g id="ð¢">
     <path d="M657 56.68H681V32.68H657V56.68Z" fill="url(#pattern0)"/>
     </g>
-    <rect x="643.586" y="18.5859" width="50.8281" height="50.8281" rx="11.4141" stroke="#0C6CC6" stroke-width="1.17188"/>
+    <rect x="643.586" y="18.5859" width="50.8281" height="50.8281" rx="11.4141" stroke="#87ea5c" stroke-width="1.17188"/>
     </g>
     </g>
     </g>
     <g id="fig5-icon2" class="fig5-icon2">
     <g id="drive_2">
     <g id="bg_2" filter="url(#filter1_ddd_1647_40416)">
-    <rect x="643" y="369" width="52" height="52" rx="12" fill="#0C6CC6"/>
+    <rect x="643" y="369" width="52" height="52" rx="12" fill="#87ea5c"/>
     <g id="ðï¸">
     <path d="M657 407.68H681V383.68H657V407.68Z" fill="url(#pattern1)"/>
     </g>
-    <rect x="643.586" y="369.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#0C6CC6" stroke-width="1.17188"/>
+    <rect x="643.586" y="369.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#87ea5c" stroke-width="1.17188"/>
     </g>
     </g>
     </g>
     <g id="fig5-icon1" class="fig5-icon1">
     <g id="drive_3">
     <g id="bg_3" filter="url(#filter2_ddd_1647_40416)">
-    <rect x="468" y="194" width="52" height="52" rx="12" fill="#0C6CC6"/>
+    <rect x="468" y="194" width="52" height="52" rx="12" fill="#87ea5c"/>
     <g id="ð¤">
     <path d="M482 232.68H506V208.68H482V232.68Z" fill="url(#pattern2)"/>
     </g>
-    <rect x="468.586" y="194.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#0C6CC6" stroke-width="1.17188"/>
+    <rect x="468.586" y="194.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#87ea5c" stroke-width="1.17188"/>
     </g>
     </g>
     </g>
     <g id="fig5-icon4" class="fig5-icon4">
     <g id="drive_4">
     <g id="bg_4" filter="url(#filter3_ddd_1647_40416)">
-    <rect x="817" y="194" width="52" height="52" rx="12" fill="#0C6CC6"/>
-    <rect x="817.586" y="194.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#0C6CC6" stroke-width="1.17188"/>
+    <rect x="817" y="194" width="52" height="52" rx="12" fill="#87ea5c"/>
+    <rect x="817.586" y="194.586" width="50.8281" height="50.8281" rx="11.4141" stroke="#87ea5c" stroke-width="1.17188"/>
     </g>
     <g id="ð°">
     <path d="M831 232.68H855V208.68H831V232.68Z" fill="url(#pattern3)"/>
     </g>
     </g>
     </g>
-    <path id="fig5-line1" class="fig5-line1" d="M28 362H125.5C331 362 141.5 218 372 218H447.5" stroke="#0C6CC6"/>
-    <circle id="Ellipse 430" cx="239" cy="289" r="3" fill="#0C6CC6"/>
-    <circle id="Ellipse 431" cx="29" cy="360" r="3" fill="#0C6CC6"/>
-    <path id="Polygon 1" d="M444 219L448.5 216.402V221.598L444 219Z" fill="#0C6CC6"/>
-    <path id="fig5-line2" class="fig5-line2" d="M1056.5 291H1013C935 291 1024.5 221.5 931.5 221.5H888" stroke="#0C6CC6"/>
-    <circle id="Ellipse 432" cx="887" cy="221" r="3" fill="#0C6CC6"/>
-    <circle id="Ellipse 433" cx="978" cy="256" r="3" fill="#0C6CC6"/>
-    <path id="Polygon 2" d="M1054 291L1058.5 288.402V293.598L1054 291Z" fill="#0C6CC6"/>
+    <path id="fig5-line1" class="fig5-line1" d="M28 362H125.5C331 362 141.5 218 372 218H447.5" stroke="#87ea5c"/>
+    <circle id="Ellipse 430" cx="239" cy="289" r="3" fill="#87ea5c"/>
+    <circle id="Ellipse 431" cx="29" cy="360" r="3" fill="#87ea5c"/>
+    <path id="Polygon 1" d="M444 219L448.5 216.402V221.598L444 219Z" fill="#87ea5c"/>
+    <path id="fig5-line2" class="fig5-line2" d="M1056.5 291H1013C935 291 1024.5 221.5 931.5 221.5H888" stroke="#87ea5c"/>
+    <circle id="Ellipse 432" cx="887" cy="221" r="3" fill="#87ea5c"/>
+    <circle id="Ellipse 433" cx="978" cy="256" r="3" fill="#87ea5c"/>
+    <path id="Polygon 2" d="M1054 291L1058.5 288.402V293.598L1054 291Z" fill="#87ea5c"/>
     </g>
     <defs>
     <filter id="filter0_ddd_1647_40416" x="641.594" y="17.2969" width="54.8125" height="54.8125" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
