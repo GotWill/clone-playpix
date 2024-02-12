@@ -18282,6 +18282,32 @@ img {
             [data-gene-ui-version="1.0.0"] .gene-actionable-list .gene-actionable-list-body .gene-actionable-list-row-children {
                 margin-left: 34px;
             }
+
+            header {
+  width: 100%;
+  position: fixed;
+  z-index: 998;
+  background-color: #121212 !important;
+  transition: 1s ease;
+  padding: 25px 8px;
+  background: rgba(247, 250, 253, 0.7);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+          top: 0;
+}
+
+header .icon {
+  max-width: 150px;
+}
+
+header nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
         </style>
         <link rel="stylesheet" type="text/css" href="/global/templates/template/build/static/css/44.427fcdb8.chunk.css" />
         <script
@@ -18301,10 +18327,26 @@ img {
     <body cz-shortcut-listen="true">
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root">
+            <header>
+                <nav>
+                  <div class="logo">
+                    <a href="./">
+                      <img
+                        src="img/logo.webp"
+                        class="icon"
+                        alt=""
+                        onload="SVGInject(this)"
+                      />
+                    </a>
+                  </div>
+                  
+                </nav>
+              </header>
+          
             <div data-gene-ui-version="1.0.0" style="height: 100%;">
                 <div class="toaster-holder right-top"></div>
                 <div class="toaster-holder right-top"></div>
-                <div class="authorisationGrandWrapper-bc">
+                <div class="authorisationGrandWrapper-bc" style="margin-top: 80px;">
                     <div class="authorisationGrandBodyWrapper-bc">
                         <div class="authorisationGrandBody-bc">
                             <h2 class="authorisationGrandTitle-bc">Bem-vindo!</h2>
