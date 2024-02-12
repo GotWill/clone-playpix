@@ -2334,7 +2334,6 @@ header {
   background: rgba(247, 250, 253, 0.7);
   -webkit-backdrop-filter: blur(8px);
           backdrop-filter: blur(8px);
-  border-bottom: 1px solid #fff;
 }
 
 header .icon {
