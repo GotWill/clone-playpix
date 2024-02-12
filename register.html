@@ -298,7 +298,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  flex-wrap: wrap !important;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 
@@ -322,8 +322,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      max-width: 72px;
-      max-height: 72px;
+      width: 72px;
+      height: 72px;
       border-radius: 20px;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
       border: solid 0.5px rgba(0, 0, 0, 0.12);
@@ -381,7 +381,6 @@
 
   .authorisationGrandIconList-bc {
     flex-wrap: wrap;
-    
   }
 }
 
@@ -12112,10 +12111,6 @@
             @media (max-width: 768px) {
                 .jodit-form {
                     min-width: 150px;
-                }
-
-                .authorisationGrandIconList-bc img{
-                  display: none;
                 }
             }
             .jodit-form button {
