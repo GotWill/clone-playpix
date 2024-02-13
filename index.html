@@ -86,7 +86,7 @@
     <style>
       .swiper {
         width: 400px;
-        height: 400px;
+        height: 563px;
       }
       #plans-mobol {
         display: none;
@@ -154,13 +154,17 @@
         .content-card-plan {
           flex-direction: column;
         }
-        #plans-desk{
+        #plans-desk {
           display: none;
         }
 
-        #plans-mobol{
-          display: block;
+        #plans-mobol {
+          display: flex;
         }
+      }
+
+      .swiper-pagination-bullet-active{
+        background-color: #87ea5c;
       }
     </style>
   </head>
@@ -637,9 +641,9 @@
           </div>
         </div>
         <div class="row" id="plans-mobol">
-          <div class="swiper">
+          <div class="swiper content-card-plan">
             <!-- Additional required wrapper -->
-            <div class="swiper-wrapper content-card-plan">
+            <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
                 <div class="card-plan silver">
@@ -653,14 +657,16 @@
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="card-plan black">
-                  <p class="title">10</p>
-                  <p>Milhões em comisão</p>
-                  <div class="footer">
-                    <img src="img/logo.webp" alt="" />
-                    <p>Black</p>
+                <div class="swiper-slide">
+                  <div class="card-plan black">
+                    <p class="title">10</p>
+                    <p>Milhões em comisão</p>
+                    <div class="footer">
+                      <img src="img/logo.webp" alt="" />
+                      <p>Black</p>
+                    </div>
+                    <img class="mt-3" src="img/placa3.jpg" alt="" />
                   </div>
-                  <img class="mt-3" src="img/placa3.jpg" alt="" />
                 </div>
               </div>
               <div class="swiper-slide">
@@ -681,8 +687,8 @@
 
             <!-- If we need navigation buttons -->
 
-
             <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </div>
@@ -1232,9 +1238,9 @@
     <script>
       const swiper = new Swiper(".swiper", {
         pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
-      },
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
       });
     </script>
   </body>
