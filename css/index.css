@@ -1,0 +1,2120 @@
+.authorisationGrandWrapper-bc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--page-background);
+    padding-right: 532px;
+    z-index: 0;
+    .logo {
+      margin: 4rem 0 0 6rem;
+      max-width: 10rem;
+    }
+  
+    .loginBackgroundImage {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+  }
+  
+  .authorisationFormCol-bc {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 512px;
+    height: calc(100% - 40px);
+    border-radius: 20px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    border: solid 0.5px rgba(0, 0, 0, 0.12);
+    background-color: var(--background);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    xalign-items: center;
+    xjustify-content: center;
+    // Optional support to confirm scroll behavior makes sense in IE10
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+  
+    .login-holder-item-close {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      font-size: 2.4rem;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .registration-content-loader {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .affiliateDocumentVerify {
+      display: flex;
+      flex-direction: column;
+      padding: 6rem 8rem;
+      flex: 1;
+      justify-content: space-between;
+    }
+  }
+  
+  .authorisationFormColInner-bc {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 76px;
+    padding-right: 76px;
+    margin: auto;
+  
+    .cha-ra-group .crs-holder {
+      padding: 0.8rem;
+    }
+  }
+  
+  .authorisationFormTitle-bc {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.37;
+    text-align: left;
+    color: #1c82f4;
+    padding-bottom: 30px;
+  }
+  
+  .authorisationFormSubtitle-bc {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.6);
+    padding-bottom: 30px;
+  }
+  
+  .authorisationFormCallToRegistration-bc {
+    margin-top: 3rem;
+  
+    p {
+      font-size: 16px;
+      line-height: 1.38;
+      color: rgba(var(--background-sc-rgb), 0.5);
+      padding-bottom: 30px;
+  
+      a {
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.38;
+        color: #1c82f4;
+      }
+    }
+  
+    .title {
+      font-size: 3.2rem;
+      color: #1473e6;
+      margin-bottom: 3.2rem;
+    }
+    .pageName {
+      text-transform: capitalize;
+      font-size: 2.8rem;
+      margin-bottom: 3.2rem;
+    }
+    .info {
+      font-size: 1.6rem;
+    }
+    .uploader {
+      margin-top: 3.2rem;
+      margin: 3.2rem 0;
+      .grid-child {
+        width: 100% !important;
+      }
+    }
+  
+    .signOut {
+      margin-top: 10px;
+    }
+  }
+  
+  .authorisationFormField-bc {
+    width: 100%;
+    //height: 48px;
+    //border-radius: 6px;
+    //border: solid 1px rgba(var(--background-sc-rgb), 0.2);
+    background-color: var(--background);
+    margin-bottom: 30px;
+    //padding-left: 20px;
+    //padding-right: 20px;
+    color: rgba(var(--background-sc-rgb), 0.7);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.36;
+    text-align: left;
+    appearance: auto;
+  
+    &::placeholder {
+      color: rgba(60, 64, 67, 0.5);
+    }
+  
+    .showPassword {
+      cursor: pointer;
+    }
+  }
+  
+  .cloudInvisible {
+    .uploader-header {
+      display: none;
+    }
+  }
+  
+  .invalid {
+    .image-holder.with-border {
+      box-shadow: inset 0 0 0 1px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  .authorisationFormForgotPass-bc {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: left;
+    color: #1c82f4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .authorisationFormConfirmTerms-bc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+  
+    input {
+      background-color: rgba(var(--background-sc-rgb), 0.6);
+      width: 16px;
+      height: 16px;
+      appearance: auto;
+    }
+  
+    p {
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(var(--background-sc-rgb), 0.6);
+      padding-left: 15px;
+    }
+  }
+  
+  .authorisationFormSubmit-bc {
+    width: 100%;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #1c82f4;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.38;
+    color: #ffffff;
+    margin: 3rem 0;
+  }
+  
+  .authorisationGrandBodyWrapper-bc {
+    width: 100%;
+    height: 100%;
+    padding-left: 154px;
+    padding-right: 154px;
+    display: flex;
+    flex-direction: column;
+    xalign-items: center;
+    xjustify-content: center;
+    // Optional support to confirm scroll behavior makes sense in IE10
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+  }
+  
+  .authorisationGrandBody-bc {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    overflow: auto;
+  }
+  
+  .authorisationGrandTitle-bc {
+    padding-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    font-size: 46px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: #1c82f4;
+    text-transform: uppercase;
+  }
+  
+  .authorisationGrandSubtitle-bc {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.7);
+    padding-bottom: 16px;
+  }
+  
+  .authorisationGrandParagraph-bc {
+    font-size: 16px;
+    line-height: 1.38;
+    color: rgba(var(--background-sc-rgb), 0.5);
+    padding-bottom: 30px;
+  }
+  
+  .authorisationGrandIconList-bc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .authorisationGrandIconListEl-bc {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    p {
+      font-size: 14px;
+      line-height: 1.36;
+      text-align: center;
+      text-transform: capitalize;
+      color: rgba(var(--background-sc-rgb), 0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100px;
+      word-break: break-word;
+  
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        border: solid 0.5px rgba(0, 0, 0, 0.12);
+        background-color: var(--background);
+        margin-bottom: 12px;
+        padding: 1.6rem;
+      }
+    }
+  }
+  
+  .restorePopup-bc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  
+    .restorePopupContainer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  
+      .restoreText-bc {
+        margin-top: 3.8rem;
+      }
+      .buttonContainer {
+        width: 100%;
+        padding: 0 2rem;
+  
+        .restoreButton-bc {
+          width: 100%;
+          margin-top: 3rem;
+        }
+      }
+    }
+  }
+  
+  @media all and (max-width: 1280px) {
+    .authorisationGrandBodyWrapper-bc {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  
+    .authorisationGrandTitle-bc {
+      padding-bottom: 15px;
+      font-size: 37px;
+    }
+  
+    .authorisationGrandSubtitle-bc {
+      font-size: 20px;
+    }
+  
+    .authorisationGrandIconList-bc {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media all and (max-width: 1000px) {
+    .authorisationFormCol-bc {
+      position: relative;
+      width: calc(100% - 40px);
+      margin-left: 40px;
+  
+      .affiliateDocumentVerify {
+        padding: 3rem 2rem 2rem;
+      }
+    }
+  
+    .authorisationGrandWrapper-bc {
+      position: relative;
+      padding-right: 0;
+      height: auto;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: flex-start;
+  
+      .logo {
+        margin: 3rem 0;
+      }
+    }
+  
+    .authorisationGrandBodyWrapper-bc {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .authorisationGrandBody-bc {
+      max-width: none;
+    }
+  }
+  
+  .bo-submenu a {
+    font: 600 1.4rem var(--font-family) !important;
+  }
+  
+  @media all and (max-width: 600px) {
+    .authorisationFormCol-bc {
+      position: relative;
+      width: calc(100% - 20px);
+      margin-left: 0;
+      right: 0;
+      top: 10px;
+    }
+  
+    .authorisationFormColInner-bc {
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 30px;
+    }
+  
+    .authorisationFormTitle-bc {
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 1.38;
+      color: #1c82f4;
+    }
+  
+    .authorisationFormSubtitle-bc {
+      font-size: 20px;
+    }
+  
+    .authorisationGrandBodyWrapper-bc {
+      margin-top: 40px;
+    }
+  
+    .authorisationGrandTitle-bc {
+      padding-top: 0;
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
+  
+    .authorisationGrandSubtitle-bc {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .authorisationGrandIconListEl-bc {
+      margin-right: 18px;
+    }
+  }
+  .login-holder-item-wrap-heading {
+    text-align: center;
+  }
+  .aff-desktop {
+    text-align: start;
+  }
+  
+  .login-holder-item-wrap-text {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .formInputFeald-bc {
+    margin: 3rem 0;
+  }
+  
+  //Registration Popup Success
+  
+  .registrationConfirmWrapper-bc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+  }
+  
+  .registrationSuccessTitle-bc {
+    width: 100%;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+    text-align: center;
+    color: #3c4043;
+    padding-bottom: 3rem;
+  }
+  
+  .registrationSuccessImage-bc {
+    margin-bottom: 1rem;
+  }
+  
+  .registrationSuccessText-bc {
+    width: 27.6rem;
+    font-size: 1.4rem;
+    line-height: 1.36;
+    text-align: center;
+    color: #3c4043;
+  }
+  
+
+
+  @font-face {
+    font-family: 'betcore';
+    src:
+      url('fonts/betcore.ttf?m839xk') format('truetype'),
+      url('fonts/betcore.woff?m839xk') format('woff'),
+      url('fonts/betcore.svg?m839xk#betcore') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="bc-icon-"], [class*=" bc-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'betcore' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .bc-icon-second-priority:before {
+    content: "\eb10";
+  }
+  .bc-icon-time-filter:before {
+    content: "\eb06";
+  }
+  .bc-icon-segment-filter:before {
+    content: "\eb07";
+  }
+  .bc-icon-crm-segment-bonus:before {
+    content: "\eb08";
+  }
+  .bc-icon-target-filter:before {
+    content: "\eb09";
+  }
+  .bc-icon-viber:before {
+    content: "\eb01";
+  }
+  .bc-icon-pin:before {
+    content: "\eb00";
+  }
+  .bc-icon-inbox:before {
+    content: "\eb02";
+  }
+  .bc-icon-add-table-raw:before {
+    content: "\eaff";
+  }
+  .bc-icon-documents:before {
+    content: "\eafd";
+  }
+  .bc-icon-seo:before {
+    content: "\eafe";
+  }
+  .bc-icon-cj-report:before {
+    content: "\eafa";
+  }
+  .bc-icon-composite-report:before {
+    content: "\eafb";
+  }
+  .bc-icon-test-link:before {
+    content: "\eafc";
+  }
+  .bc-icon-checkbox:before {
+    content: "\eae7";
+  }
+  .bc-icon-custom-link:before {
+    content: "\eae8";
+  }
+  .bc-icon-dropdown:before {
+    content: "\eae9";
+  }
+  .bc-icon-import:before {
+    content: "\eaea";
+  }
+  .bc-icon-input:before {
+    content: "\eaeb";
+  }
+  .bc-icon-lamp-filled:before {
+    content: "\eaec";
+  }
+  .bc-icon-lamp:before {
+    content: "\eaed";
+  }
+  .bc-icon-multi-segment:before {
+    content: "\eaee";
+  }
+  .bc-icon-percentage-left:before {
+    content: "\eaef";
+  }
+  .bc-icon-persentage-right:before {
+    content: "\eaf0";
+  }
+  .bc-icon-radio-button:before {
+    content: "\eaf1";
+  }
+  .bc-icon-switcher:before {
+    content: "\eaf2";
+  }
+  .bc-icon-textbox:before {
+    content: "\eaf3";
+  }
+  .bc-icon-bar-chart:before {
+    content: "\eaf4";
+  }
+  .bc-icon-line-chart:before {
+    content: "\eaf5";
+  }
+  .bc-icon-female:before {
+    content: "\eaf6";
+  }
+  .bc-icon-male:before {
+    content: "\eaf7";
+  }
+  .bc-icon-microsoft-edge:before {
+    content: "\eaf8";
+  }
+  .bc-icon-samsung-internet:before {
+    content: "\eaf9";
+  }
+  .bc-icon-deca-logo:before {
+    content: "\eae6";
+  }
+  .bc-icon-rotate-left:before {
+    content: "\eae4";
+  }
+  .bc-icon-rotate-right:before {
+    content: "\eae5";
+  }
+  .bc-icon-calendar-clock-filled:before {
+    content: "\eadf";
+  }
+  .bc-icon-calendar-clock:before {
+    content: "\eae0";
+  }
+  .bc-icon-new-window:before {
+    content: "\eae1";
+  }
+  .bc-icon-first-priority:before {
+    content: "\eae2";
+  }
+  .bc-icon-union:before {
+    content: "\eae3";
+  }
+  .bc-icon-approvals-app:before {
+    content: "\eade";
+  }
+  .bc-icon-slider-manager-filled:before {
+    content: "\eada";
+  }
+  .bc-icon-slider-manager:before {
+    content: "\eadb";
+  }
+  .bc-icon-date-filter:before {
+    content: "\ead9";
+  }
+  .bc-icon-sound-filled-mute:before {
+    content: "\eadc";
+  }
+  .bc-icon-sound-mute:before {
+    content: "\eadd";
+  }
+  .bc-icon-sound:before {
+    content: "\ead7";
+  }
+  .bc-icon-sound-filled:before {
+    content: "\ead8";
+  }
+  .bc-icon-contain:before {
+    content: "\ead6";
+  }
+  .bc-icon-affiliate:before {
+    content: "\eac8";
+  }
+  .bc-icon-agent:before {
+    content: "\eac9";
+  }
+  .bc-icon-backgammon:before {
+    content: "\eaca";
+  }
+  .bc-icon-bme:before {
+    content: "\eacb";
+  }
+  .bc-icon-cms:before {
+    content: "\eacc";
+  }
+  .bc-icon-fantasy-sports:before {
+    content: "\eacd";
+  }
+  .bc-icon-oct:before {
+    content: "\eace";
+  }
+  .bc-icon-payment:before {
+    content: "\eacf";
+  }
+  .bc-icon-poker:before {
+    content: "\ead0";
+  }
+  .bc-icon-promotional-tool:before {
+    content: "\ead1";
+  }
+  .bc-icon-scouting:before {
+    content: "\ead2";
+  }
+  .bc-icon-slot-builder:before {
+    content: "\ead3";
+  }
+  .bc-icon-translation-tool:before {
+    content: "\ead4";
+  }
+  .bc-icon-umbrella:before {
+    content: "\ead5";
+  }
+  .bc-icon-live-casino:before {
+    content: "\eac5";
+  }
+  .bc-icon-skill-games:before {
+    content: "\eac6";
+  }
+  .bc-icon-virtual-sports:before {
+    content: "\eac7";
+  }
+  .bc-icon-android:before {
+    content: "\eabc";
+  }
+  .bc-icon-chrome:before {
+    content: "\eabd";
+  }
+  .bc-icon-firefox:before {
+    content: "\eabe";
+  }
+  .bc-icon-ios:before {
+    content: "\eabf";
+  }
+  .bc-icon-linux:before {
+    content: "\eac0";
+  }
+  .bc-icon-safari:before {
+    content: "\eac1";
+  }
+  .bc-icon-mac-os:before {
+    content: "\eac2";
+  }
+  .bc-icon-opera:before {
+    content: "\eac3";
+  }
+  .bc-icon-windows:before {
+    content: "\eac4";
+  }
+  .bc-icon-awards:before {
+    content: "\eabb";
+  }
+  .bc-icon-assign-tournament:before {
+    content: "\eab6";
+  }
+  .bc-icon-correction-up:before {
+    content: "\eab7";
+  }
+  .bc-icon-loyalty-point:before {
+    content: "\eab8";
+  }
+  .bc-icon-remove-by-schedule:before {
+    content: "\eab9";
+  }
+  .bc-icon-remove-by-trip:before {
+    content: "\eaba";
+  }
+  .bc-icon-compose:before {
+    content: "\eab4";
+  }
+  .bc-icon-message-send-all:before {
+    content: "\eab5";
+  }
+  .bc-icon-providers:before {
+    content: "\eab2";
+  }
+  .bc-icon-visualization:before {
+    content: "\eab3";
+  }
+  .bc-icon-horse:before {
+    content: "\eab1";
+  }
+  .bc-icon-non-customer:before {
+    content: "\eab0";
+  }
+  .bc-icon-resume:before {
+    content: "\eaaf";
+  }
+  .bc-icon-partner:before {
+    content: "\eaad";
+  }
+  .bc-icon-license:before {
+    content: "\eaae";
+  }
+  .bc-icon-short-link:before {
+    content: "\eaaa";
+  }
+  .bc-icon-alias:before {
+    content: "\eaab";
+  }
+  .bc-icon-link-alt:before {
+    content: "\eaac";
+  }
+  .bc-icon-aggregator-block:before {
+    content: "\ea7e";
+  }
+  .bc-icon-bonus-complete-block:before {
+    content: "\ea7f";
+  }
+  .bc-icon-bet-calculated-block:before {
+    content: "\ea80";
+  }
+  .bc-icon-casino-win-block:before {
+    content: "\ea90";
+  }
+  .bc-icon-deposit-block:before {
+    content: "\ea91";
+  }
+  .bc-icon-cta-tracker-block:before {
+    content: "\ea92";
+  }
+  .bc-icon-filter-block:before {
+    content: "\ea93";
+  }
+  .bc-icon-casino-bet-block:before {
+    content: "\ea94";
+  }
+  .bc-icon-registration-block:before {
+    content: "\ea95";
+  }
+  .bc-icon-segment-block:before {
+    content: "\ea96";
+  }
+  .bc-icon-send-bonus-block:before {
+    content: "\ea97";
+  }
+  .bc-icon-send-dynamic-bonus-block:before {
+    content: "\ea98";
+  }
+  .bc-icon-send-email-block:before {
+    content: "\ea99";
+  }
+  .bc-icon-bonus-claim-block:before {
+    content: "\ea9a";
+  }
+  .bc-icon-opt-in-block:before {
+    content: "\ea9b";
+  }
+  .bc-icon-message-tracker-block:before {
+    content: "\ea9c";
+  }
+  .bc-icon-login-block:before {
+    content: "\ea9d";
+  }
+  .bc-icon-send-internal-message-block:before {
+    content: "\ea9e";
+  }
+  .bc-icon-send-pop-up-block:before {
+    content: "\ea9f";
+  }
+  .bc-icon-send-sms-block:before {
+    content: "\eaa0";
+  }
+  .bc-icon-send-telegram-message-block:before {
+    content: "\eaa1";
+  }
+  .bc-icon-set-tag-block:before {
+    content: "\eaa2";
+  }
+  .bc-icon-sport-bet-block:before {
+    content: "\eaa3";
+  }
+  .bc-icon-sport-lose-block:before {
+    content: "\eaa4";
+  }
+  .bc-icon-sport-real-money-bet-block:before {
+    content: "\eaa5";
+  }
+  .bc-icon-sport-win-block:before {
+    content: "\eaa6";
+  }
+  .bc-icon-verification-block:before {
+    content: "\eaa7";
+  }
+  .bc-icon-withdraw-block:before {
+    content: "\eaa8";
+  }
+  .bc-icon-send-push-notification-block:before {
+    content: "\eaa9";
+  }
+  .bc-icon-bell-outline:before {
+    content: "\ea7d";
+  }
+  .bc-icon-crm-free-bet:before {
+    content: "\ea86";
+  }
+  .bc-icon-crm-deposit-bonus:before {
+    content: "\ea87";
+  }
+  .bc-icon-crm-unschedule:before {
+    content: "\ea88";
+  }
+  .bc-icon-crm-rerun:before {
+    content: "\ea89";
+  }
+  .bc-icon-crm-standart-report:before {
+    content: "\ea8a";
+  }
+  .bc-icon-crm-manual-bonus:before {
+    content: "\ea8b";
+  }
+  .bc-icon-crm-skill-games:before {
+    content: "\ea8c";
+  }
+  .bc-icon-crm-free-spin:before {
+    content: "\ea8d";
+  }
+  .bc-icon-crm-custom-report:before {
+    content: "\ea8e";
+  }
+  .bc-icon-crm-schedule:before {
+    content: "\ea8f";
+  }
+  .bc-icon-game-cms:before {
+    content: "\ea85";
+  }
+  .bc-icon-cursor-resize:before {
+    content: "\ea83";
+  }
+  .bc-icon-transfer-to:before {
+    content: "\ea84";
+  }
+  .bc-icon-inactivate-cms:before {
+    content: "\ea79";
+  }
+  .bc-icon-publish-48-cms:before {
+    content: "\ea7a";
+  }
+  .bc-icon-activate-cms:before {
+    content: "\ea7b";
+  }
+  .bc-icon-unpublish-cms:before {
+    content: "\ea7c";
+  }
+  .bc-icon-publish-cms:before {
+    content: "\ea81";
+  }
+  .bc-icon-unpublish-48-cms:before {
+    content: "\ea82";
+  }
+  .bc-icon-autogenerate-order:before {
+    content: "\ea78";
+  }
+  .bc-icon-inactivate-48:before {
+    content: "\ea35";
+  }
+  .bc-icon-activate-48:before {
+    content: "\ea3a";
+  }
+  .bc-icon-activate:before {
+    content: "\ea3c";
+  }
+  .bc-icon-inactivate:before {
+    content: "\ea77";
+  }
+  .bc-icon-bet-construct-logo:before {
+    content: "\ea76";
+  }
+  .bc-icon-crm-sms:before {
+    content: "\ea68";
+  }
+  .bc-icon-crm-internal-message:before {
+    content: "\ea69";
+  }
+  .bc-icon-test-template:before {
+    content: "\ea6a";
+  }
+  .bc-icon-test-48:before {
+    content: "\ea6b";
+  }
+  .bc-icon-full-width:before {
+    content: "\ea6c";
+  }
+  .bc-icon-drag-up-down:before {
+    content: "\ea6d";
+  }
+  .bc-icon-unarchive-48:before {
+    content: "\ea6e";
+  }
+  .bc-icon-content:before {
+    content: "\ea6f";
+  }
+  .bc-icon-tablet:before {
+    content: "\ea70";
+  }
+  .bc-icon-magic-wand:before {
+    content: "\ea71";
+  }
+  .bc-icon-crm-social-networks:before {
+    content: "\ea72";
+  }
+  .bc-icon-Image:before {
+    content: "\ea73";
+  }
+  .bc-icon-brush:before {
+    content: "\ea74";
+  }
+  .bc-icon-crm-email:before {
+    content: "\ea75";
+  }
+  .bc-icon-verify:before {
+    content: "\ea66";
+  }
+  .bc-icon-activate-circle:before {
+    content: "\ea65";
+  }
+  .bc-icon-inactivate-circle:before {
+    content: "\ea67";
+  }
+  .bc-icon-menu:before {
+    content: "\ea64";
+  }
+  .bc-icon-campaign:before {
+    content: "\ea60";
+  }
+  .bc-icon-customer-journey:before {
+    content: "\ea61";
+  }
+  .bc-icon-template:before {
+    content: "\ea62";
+  }
+  .bc-icon-segment:before {
+    content: "\ea63";
+  }
+  .bc-icon-sent-outline:before {
+    content: "\ea5d";
+  }
+  .bc-icon-message-opened:before {
+    content: "\ea5e";
+  }
+  .bc-icon-message-closed:before {
+    content: "\ea5f";
+  }
+  .bc-icon-spinner-half:before {
+    content: "\ea5c";
+  }
+  .bc-icon-language-disabled:before {
+    content: "\ea5b";
+  }
+  .bc-icon-subpage:before {
+    content: "\ea5a";
+  }
+  .bc-icon-recalculate:before {
+    content: "\ea58";
+  }
+  .bc-icon-wallet-big:before {
+    content: "\ea59";
+  }
+  .bc-icon-pages:before {
+    content: "\ea56";
+  }
+  .bc-icon-copy-mirror:before {
+    content: "\ea57";
+  }
+  .bc-icon-disable:before {
+    content: "\ea54";
+  }
+  .bc-icon-image-default:before {
+    content: "\ea55";
+  }
+  .bc-icon-favorite-fill:before {
+    content: "\ea53";
+  }
+  .bc-icon-redo1:before {
+    content: "\ea50";
+  }
+  .bc-icon-undo1:before {
+    content: "\ea51";
+  }
+  .bc-icon-zoom-out-reset:before {
+    content: "\ea52";
+  }
+  .bc-icon-commission-plan-percentage-48:before {
+    content: "\ea4f";
+  }
+  .bc-icon-withdrawals-sub-user-request:before {
+    content: "\e93c";
+  }
+  .bc-icon-publish-globe-48:before {
+    content: "\ea37";
+  }
+  .bc-icon-preview:before {
+    content: "\ea34";
+  }
+  .bc-icon-gallery:before {
+    content: "\ea36";
+  }
+  .bc-icon-upload1:before {
+    content: "\ea38";
+  }
+  .bc-icon-desktop-preview:before {
+    content: "\ea39";
+  }
+  .bc-icon-link1:before {
+    content: "\ea3b";
+  }
+  .bc-icon-description:before {
+    content: "\ea3d";
+  }
+  .bc-icon-percentage:before {
+    content: "\ea3e";
+  }
+  .bc-icon-quick-amount:before {
+    content: "\ea3f";
+  }
+  .bc-icon-publish-globe:before {
+    content: "\ea40";
+  }
+  .bc-icon-background:before {
+    content: "\ea41";
+  }
+  .bc-icon-bottom-center:before {
+    content: "\ea42";
+  }
+  .bc-icon-bottom-right:before {
+    content: "\ea43";
+  }
+  .bc-icon-center-circle:before {
+    content: "\ea44";
+  }
+  .bc-icon-center-left:before {
+    content: "\ea45";
+  }
+  .bc-icon-center-right:before {
+    content: "\ea46";
+  }
+  .bc-icon-center:before {
+    content: "\ea47";
+  }
+  .bc-icon-left:before {
+    content: "\ea48";
+  }
+  .bc-icon-right:before {
+    content: "\ea49";
+  }
+  .bc-icon-up-center:before {
+    content: "\ea4a";
+  }
+  .bc-icon-up-left:before {
+    content: "\ea4b";
+  }
+  .bc-icon-up-right:before {
+    content: "\ea4c";
+  }
+  .bc-icon-bottom-left:before {
+    content: "\ea4d";
+  }
+  .bc-icon-look-there:before {
+    content: "\ea4e";
+  }
+  .bc-icon-all-media:before {
+    content: "\ea28";
+  }
+  .bc-icon-blocks:before {
+    content: "\ea29";
+  }
+  .bc-icon-casino:before {
+    content: "\ea2a";
+  }
+  .bc-icon-deisgn:before {
+    content: "\ea2b";
+  }
+  .bc-icon-page-builders:before {
+    content: "\ea2c";
+  }
+  .bc-icon-applications:before {
+    content: "\ea2d";
+  }
+  .bc-icon-payments:before {
+    content: "\ea2e";
+  }
+  .bc-icon-products:before {
+    content: "\ea2f";
+  }
+  .bc-icon-report1:before {
+    content: "\ea30";
+  }
+  .bc-icon-settings-bars:before {
+    content: "\ea31";
+  }
+  .bc-icon-skins:before {
+    content: "\ea32";
+  }
+  .bc-icon-pop-ups:before {
+    content: "\ea33";
+  }
+  .bc-icon-add-user-or-transfer:before {
+    content: "\ea27";
+  }
+  .bc-icon-statistics:before {
+    content: "\ea24";
+  }
+  .bc-icon-message-reply:before {
+    content: "\ea25";
+  }
+  .bc-icon-copy-outline:before {
+    content: "\ea26";
+  }
+  .bc-icon-banner-activation:before {
+    content: "\ea23";
+  }
+  .bc-icon-favorite:before {
+    content: "\ea21";
+  }
+  .bc-icon-set-limit:before {
+    content: "\ea22";
+  }
+  .bc-icon-domain-name-48:before {
+    content: "\ea17";
+  }
+  .bc-icon-mail-templates-48:before {
+    content: "\ea18";
+  }
+  .bc-icon-meta-tags-48:before {
+    content: "\ea19";
+  }
+  .bc-icon-payment-method-48:before {
+    content: "\ea1a";
+  }
+  .bc-icon-permissions-48:before {
+    content: "\ea1b";
+  }
+  .bc-icon-postback-48:before {
+    content: "\ea1c";
+  }
+  .bc-icon-products-48:before {
+    content: "\ea1d";
+  }
+  .bc-icon-promotional-bonus-48:before {
+    content: "\ea1e";
+  }
+  .bc-icon-skin-customization-48:before {
+    content: "\ea1f";
+  }
+  .bc-icon-content-management-48:before {
+    content: "\ea20";
+  }
+  .bc-icon-change-password:before {
+    content: "\ea16";
+  }
+  .bc-icon-unverify:before {
+    content: "\ea13";
+  }
+  .bc-icon-distribution:before {
+    content: "\ea14";
+  }
+  .bc-icon-match:before {
+    content: "\ea15";
+  }
+  .bc-icon-cancel:before {
+    content: "\ea0b";
+  }
+  .bc-icon-check:before {
+    content: "\ea0c";
+  }
+  .bc-icon-scheme-horizontal:before {
+    content: "\ea0d";
+  }
+  .bc-icon-scheme-vertical:before {
+    content: "\ea0e";
+  }
+  .bc-icon-table:before {
+    content: "\ea0f";
+  }
+  .bc-icon-zoom-in:before {
+    content: "\ea10";
+  }
+  .bc-icon-zoom-out:before {
+    content: "\ea11";
+  }
+  .bc-icon-edit-content:before {
+    content: "\ea12";
+  }
+  .bc-icon-publish-48:before {
+    content: "\ea0a";
+  }
+  .bc-icon-add-user:before {
+    content: "\ea08";
+  }
+  .bc-icon-transfer-bold:before {
+    content: "\ea09";
+  }
+  .bc-icon-detailed-report:before {
+    content: "\ea06";
+  }
+  .bc-icon-unverify-48:before {
+    content: "\ea07";
+  }
+  .bc-icon-arbitrage-betting-36:before {
+    content: "\e9ff";
+  }
+  .bc-icon-bonus-hunter-36:before {
+    content: "\ea00";
+  }
+  .bc-icon-strong-opinion-36:before {
+    content: "\ea01";
+  }
+  .bc-icon-sfm-36:before {
+    content: "\ea02";
+  }
+  .bc-icon-arbitrage-bot-36:before {
+    content: "\ea03";
+  }
+  .bc-icon-late-betting-36:before {
+    content: "\ea04";
+  }
+  .bc-icon-corridor-36:before {
+    content: "\ea05";
+  }
+  .bc-icon-ticket:before {
+    content: "\e9fe";
+  }
+  .bc-icon-auto-generate-48:before {
+    content: "\e9fd";
+  }
+  .bc-icon-dashboard-rmt-36:before {
+    content: "\e9f7";
+  }
+  .bc-icon-analytic-data-rmt-36:before {
+    content: "\e9f8";
+  }
+  .bc-icon-info-monitor-rmt-36:before {
+    content: "\e9f9";
+  }
+  .bc-icon-reports-rmt-36:before {
+    content: "\e9fa";
+  }
+  .bc-icon-alert-monitor-rmt-36:before {
+    content: "\e9fb";
+  }
+  .bc-icon-players-rmt-36:before {
+    content: "\e9fc";
+  }
+  .bc-icon-score:before {
+    content: "\e9f3";
+  }
+  .bc-icon-octopus:before {
+    content: "\e9f4";
+  }
+  .bc-icon-global-round:before {
+    content: "\e9f5";
+  }
+  .bc-icon-round:before {
+    content: "\e9f6";
+  }
+  .bc-icon-average-coefficient:before {
+    content: "\e9e9";
+  }
+  .bc-icon-reminder:before {
+    content: "\e9ea";
+  }
+  .bc-icon-unblocked:before {
+    content: "\e9eb";
+  }
+  .bc-icon-profit:before {
+    content: "\e9ec";
+  }
+  .bc-icon-percent-of-profit:before {
+    content: "\e9ed";
+  }
+  .bc-icon-review:before {
+    content: "\e9ee";
+  }
+  .bc-icon-average-bet:before {
+    content: "\e9ef";
+  }
+  .bc-icon-blocked:before {
+    content: "\e9f0";
+  }
+  .bc-icon-total-bet:before {
+    content: "\e9f1";
+  }
+  .bc-icon-turnover:before {
+    content: "\e9f2";
+  }
+  .bc-icon-maximize:before {
+    content: "\e9e7";
+  }
+  .bc-icon-minimize:before {
+    content: "\e9e8";
+  }
+  .bc-icon-drag-here:before {
+    content: "\e9e6";
+  }
+  .bc-icon-dark-mode:before {
+    content: "\e9df";
+  }
+  .bc-icon-paragraph-ltr:before {
+    content: "\e9e0";
+  }
+  .bc-icon-desktop:before {
+    content: "\e9e1";
+  }
+  .bc-icon-full-screen:before {
+    content: "\e9e2";
+  }
+  .bc-icon-light-mode:before {
+    content: "\e9e3";
+  }
+  .bc-icon-mobile:before {
+    content: "\e9e4";
+  }
+  .bc-icon-paragraph-rtl:before {
+    content: "\e9e5";
+  }
+  .bc-icon-bet-on-politics:before {
+    content: "\e9dd";
+  }
+  .bc-icon-qr-code:before {
+    content: "\e9de";
+  }
+  .bc-icon-restore-48:before {
+    content: "\e9dc";
+  }
+  .bc-icon-backoffice:before {
+    content: "\e9db";
+  }
+  .bc-icon-switch-48:before {
+    content: "\e9da";
+  }
+  .bc-icon-map-border:before {
+    content: "\e9d7";
+  }
+  .bc-icon-list-border:before {
+    content: "\e9d8";
+  }
+  .bc-icon-chart-border:before {
+    content: "\e9d9";
+  }
+  .bc-icon-expand:before {
+    content: "\e9d6";
+  }
+  .bc-icon-edit-pen:before {
+    content: "\e9d5";
+  }
+  .bc-icon-chart-flow:before {
+    content: "\e9d3";
+  }
+  .bc-icon-graph-flow:before {
+    content: "\e9d4";
+  }
+  .bc-icon-report:before {
+    content: "\e9d2";
+  }
+  .bc-icon-metatag-48:before {
+    content: "\e9c2";
+  }
+  .bc-icon-permission-48:before {
+    content: "\e9c3";
+  }
+  .bc-icon-copy-link:before {
+    content: "\e9c4";
+  }
+  .bc-icon-contribution-costs-48:before {
+    content: "\e9c5";
+  }
+  .bc-icon-mail-template-48:before {
+    content: "\e9c6";
+  }
+  .bc-icon-domain-48:before {
+    content: "\e9c7";
+  }
+  .bc-icon-flag:before {
+    content: "\e9c8";
+  }
+  .bc-icon-payment-48:before {
+    content: "\e9c9";
+  }
+  .bc-icon-currencies-48:before {
+    content: "\e9ca";
+  }
+  .bc-icon-social-48:before {
+    content: "\e9cb";
+  }
+  .bc-icon-languages-48:before {
+    content: "\e9cc";
+  }
+  .bc-icon-indicate-users:before {
+    content: "\e9cd";
+  }
+  .bc-icon-set-as-default:before {
+    content: "\e9ce";
+  }
+  .bc-icon-view-users:before {
+    content: "\e9cf";
+  }
+  .bc-icon-archive-48:before {
+    content: "\e9d0";
+  }
+  .bc-icon-product-48:before {
+    content: "\e9d1";
+  }
+  .bc-icon-fantasy-games:before {
+    content: "\e9be";
+  }
+  .bc-icon-publish:before {
+    content: "\e9bf";
+  }
+  .bc-icon-contest:before {
+    content: "\e9c0";
+  }
+  .bc-icon-challenge:before {
+    content: "\e9c1";
+  }
+  .bc-icon-log-out:before {
+    content: "\e9a8";
+  }
+  .bc-icon-save:before {
+    content: "\e9a9";
+  }
+  .bc-icon-message-affiliate:before {
+    content: "\e9aa";
+  }
+  .bc-icon-wallet:before {
+    content: "\e9ab";
+  }
+  .bc-icon-download:before {
+    content: "\e9ac";
+  }
+  .bc-icon-files-and-links:before {
+    content: "\e9ad";
+  }
+  .bc-icon-apply:before {
+    content: "\e9ae";
+  }
+  .bc-icon-block-48:before {
+    content: "\e9af";
+  }
+  .bc-icon-danger-48:before {
+    content: "\e9b0";
+  }
+  .bc-icon-email-verification-48:before {
+    content: "\e9b1";
+  }
+  .bc-icon-question-mark-48:before {
+    content: "\e9b2";
+  }
+  .bc-icon-user-48:before {
+    content: "\e9b3";
+  }
+  .bc-icon-note:before {
+    content: "\e9b4";
+  }
+  .bc-icon-transfer:before {
+    content: "\e9b5";
+  }
+  .bc-icon-login:before {
+    content: "\e9b6";
+  }
+  .bc-icon-commission-plan-48:before {
+    content: "\e9b7";
+  }
+  .bc-icon-info-48:before {
+    content: "\e9b8";
+  }
+  .bc-icon-money-48:before {
+    content: "\e9b9";
+  }
+  .bc-icon-calculator:before {
+    content: "\e9ba";
+  }
+  .bc-icon-filter-list:before {
+    content: "\e9bb";
+  }
+  .bc-icon-difference:before {
+    content: "\e9bc";
+  }
+  .bc-icon-intersect:before {
+    content: "\e9bd";
+  }
+  .bc-icon-archive:before {
+    content: "\e9a1";
+  }
+  .bc-icon-category:before {
+    content: "\e9a2";
+  }
+  .bc-icon-unarchive:before {
+    content: "\e9a3";
+  }
+  .bc-icon-clone:before {
+    content: "\e9a4";
+  }
+  .bc-icon-union1:before {
+    content: "\e9a5";
+  }
+  .bc-icon-convert-to-report:before {
+    content: "\e9a6";
+  }
+  .bc-icon-predefined:before {
+    content: "\e9a7";
+  }
+  .bc-icon-add-document:before {
+    content: "\e9a0";
+  }
+  .bc-icon-composite:before {
+    content: "\e986";
+  }
+  .bc-icon-dynamic:before {
+    content: "\e987";
+  }
+  .bc-icon-schedule:before {
+    content: "\e988";
+  }
+  .bc-icon-plus-crm:before {
+    content: "\e989";
+  }
+  .bc-icon-static:before {
+    content: "\e98a";
+  }
+  .bc-icon-delete-2:before {
+    content: "\e98b";
+  }
+  .bc-icon-not-ends-with:before {
+    content: "\e98c";
+  }
+  .bc-icon-not-starts-with:before {
+    content: "\e98d";
+  }
+  .bc-icon-folder-closed:before {
+    content: "\e98e";
+  }
+  .bc-icon-folder-opened:before {
+    content: "\e98f";
+  }
+  .bc-icon-crm:before {
+    content: "\e990";
+  }
+  .bc-icon-contains:before {
+    content: "\e991";
+  }
+  .bc-icon-blank:before {
+    content: "\e992";
+  }
+  .bc-icon-not-within:before {
+    content: "\e993";
+  }
+  .bc-icon-not-contains:before {
+    content: "\e994";
+  }
+  .bc-icon-is:before {
+    content: "\e995";
+  }
+  .bc-icon-is-not:before {
+    content: "\e996";
+  }
+  .bc-icon-starts-with:before {
+    content: "\e997";
+  }
+  .bc-icon-ends-with:before {
+    content: "\e998";
+  }
+  .bc-icon-equal:before {
+    content: "\e999";
+  }
+  .bc-icon-not-equal:before {
+    content: "\e99a";
+  }
+  .bc-icon-above:before {
+    content: "\e99b";
+  }
+  .bc-icon-below:before {
+    content: "\e99c";
+  }
+  .bc-icon-greater-or-equal:before {
+    content: "\e99d";
+  }
+  .bc-icon-less-or-equal:before {
+    content: "\e99e";
+  }
+  .bc-icon-within:before {
+    content: "\e99f";
+  }
+  .bc-icon-view-doc:before {
+    content: "\e985";
+  }
+  .bc-icon-betconstruct:before {
+    content: "\e95e";
+  }
+  .bc-icon-add:before {
+    content: "\e97b";
+  }
+  .bc-icon-watch:before {
+    content: "\e97c";
+  }
+  .bc-icon-cancel-bonus:before {
+    content: "\e97d";
+  }
+  .bc-icon-email-verification:before {
+    content: "\e97e";
+  }
+  .bc-icon-zoom:before {
+    content: "\e97f";
+  }
+  .bc-icon-email:before {
+    content: "\e980";
+  }
+  .bc-icon-log-history:before {
+    content: "\e981";
+  }
+  .bc-icon-resend:before {
+    content: "\e982";
+  }
+  .bc-icon-settings:before {
+    content: "\e983";
+  }
+  .bc-icon-sms:before {
+    content: "\e984";
+  }
+  .bc-icon-comparison-up:before {
+    content: "\e978";
+  }
+  .bc-icon-go-forward:before {
+    content: "\e979";
+  }
+  .bc-icon-comparison-down:before {
+    content: "\e97a";
+  }
+  .bc-icon-align-center:before {
+    content: "\e942";
+  }
+  .bc-icon-align-justify:before {
+    content: "\e961";
+  }
+  .bc-icon-align-left:before {
+    content: "\e962";
+  }
+  .bc-icon-align-right:before {
+    content: "\e963";
+  }
+  .bc-icon-bold:before {
+    content: "\e964";
+  }
+  .bc-icon-eraser:before {
+    content: "\e965";
+  }
+  .bc-icon-external-link-square:before {
+    content: "\e966";
+  }
+  .bc-icon-image:before {
+    content: "\e967";
+  }
+  .bc-icon-indent:before {
+    content: "\e968";
+  }
+  .bc-icon-italic:before {
+    content: "\e969";
+  }
+  .bc-icon-link:before {
+    content: "\e96a";
+  }
+  .bc-icon-list-ol:before {
+    content: "\e96b";
+  }
+  .bc-icon-list-ul:before {
+    content: "\e96c";
+  }
+  .bc-icon-monospace:before {
+    content: "\e96d";
+  }
+  .bc-icon-outdent:before {
+    content: "\e96e";
+  }
+  .bc-icon-paint-brush:before {
+    content: "\e96f";
+  }
+  .bc-icon-redo:before {
+    content: "\e970";
+  }
+  .bc-icon-smile:before {
+    content: "\e971";
+  }
+  .bc-icon-strikethrough:before {
+    content: "\e972";
+  }
+  .bc-icon-subscript:before {
+    content: "\e973";
+  }
+  .bc-icon-superscript:before {
+    content: "\e974";
+  }
+  .bc-icon-underline:before {
+    content: "\e975";
+  }
+  .bc-icon-undo:before {
+    content: "\e976";
+  }
+  .bc-icon-unlink:before {
+    content: "\e977";
+  }
+  .bc-icon-clear-small:before {
+    content: "\e960";
+  }
+  .bc-icon-selected:before {
+    content: "\e95f";
+  }
+  .bc-icon-upload-reset:before {
+    content: "\e952";
+  }
+  .bc-icon-plus-upload:before {
+    content: "\e95d";
+  }
+  .bc-icon-cloud-upload:before {
+    content: "\e95c";
+  }
+  .bc-icon-filter:before {
+    content: "\e92d";
+  }
+  .bc-icon-forwards:before {
+    content: "\e95a";
+  }
+  .bc-icon-backwards:before {
+    content: "\e95b";
+  }
+  .bc-icon-left-outline:before {
+    content: "\e955";
+  }
+  .bc-icon-right-outline:before {
+    content: "\e959";
+  }
+  .bc-icon-copy:before {
+    content: "\e954";
+  }
+  .bc-icon-code-hide:before {
+    content: "\e956";
+  }
+  .bc-icon-code:before {
+    content: "\e957";
+  }
+  .bc-icon-codesandbox:before {
+    content: "\e958";
+  }
+  .bc-icon-trash:before {
+    content: "\e941";
+  }
+  .bc-icon-view:before {
+    content: "\e953";
+  }
+  .bc-icon-file-type:before {
+    content: "\e94f";
+  }
+  .bc-icon-upload:before {
+    content: "\e950";
+  }
+  .bc-icon-attachment:before {
+    content: "\e951";
+  }
+  .bc-icon-validated:before {
+    content: "\e94d";
+  }
+  .bc-icon-error-info:before {
+    content: "\e94e";
+  }
+  .bc-icon-status-stop:before {
+    content: "\e949";
+  }
+  .bc-icon-status-circle-outline:before {
+    content: "\e94a";
+  }
+  .bc-icon-status-circle:before {
+    content: "\e94b";
+  }
+  .bc-icon-status-play:before {
+    content: "\e94c";
+  }
+  .bc-icon-loader:before {
+    content: "\e948";
+  }
+  .bc-icon-dislike:before {
+    content: "\e944";
+  }
+  .bc-icon-plus:before {
+    content: "\e945";
+  }
+  .bc-icon-minus:before {
+    content: "\e946";
+  }
+  .bc-icon-like:before {
+    content: "\e947";
+  }
+  .bc-icon-input-number-down:before {
+    content: "\e938";
+  }
+  .bc-icon-input-number-up:before {
+    content: "\e943";
+  }
+  .bc-icon-user:before {
+    content: "\e937";
+  }
+  .bc-icon-superbet:before {
+    content: "\e93a";
+  }
+  .bc-icon-withdraw:before {
+    content: "\e93b";
+  }
+  .bc-icon-notification:before {
+    content: "\e93d";
+  }
+  .bc-icon-deposit:before {
+    content: "\e93e";
+  }
+  .bc-icon-notification-outline:before {
+    content: "\e93f";
+  }
+  .bc-icon-message:before {
+    content: "\e940";
+  }
+  .bc-icon-radio:before {
+    content: "\e912";
+  }
+  .bc-icon-bell:before {
+    content: "\e939";
+  }
+  .bc-icon-success-fill:before {
+    content: "\e931";
+  }
+  .bc-icon-error-fill:before {
+    content: "\e932";
+  }
+  .bc-icon-info-fill:before {
+    content: "\e933";
+  }
+  .bc-icon-success:before {
+    content: "\e934";
+  }
+  .bc-icon-error:before {
+    content: "\e935";
+  }
+  .bc-icon-info:before {
+    content: "\e936";
+  }
+  .bc-icon-apps:before {
+    content: "\e900";
+  }
+  .bc-icon-arrow-back:before {
+    content: "\e901";
+  }
+  .bc-icon-arrow-down-nav:before {
+    content: "\e902";
+  }
+  .bc-icon-arrow-down:before {
+    content: "\e903";
+  }
+  .bc-icon-arrow-downward:before {
+    content: "\e904";
+  }
+  .bc-icon-arrow-forward:before {
+    content: "\e905";
+  }
+  .bc-icon-arrow-left-nav:before {
+    content: "\e906";
+  }
+  .bc-icon-arrow-left:before {
+    content: "\e907";
+  }
+  .bc-icon-arrow-next:before {
+    content: "\e908";
+  }
+  .bc-icon-arrow-previous:before {
+    content: "\e909";
+  }
+  .bc-icon-arrow-right-nav:before {
+    content: "\e90a";
+  }
+  .bc-icon-arrow-right:before {
+    content: "\e90b";
+  }
+  .bc-icon-arrow-up-nav:before {
+    content: "\eb05";
+  }
+  .bc-icon-arrow-up:before {
+    content: "\e90d";
+  }
+  .bc-icon-arrow-upward:before {
+    content: "\e90e";
+  }
+  .bc-icon-bs-management:before {
+    content: "\e90f";
+  }
+  .bc-icon-calendar:before {
+    content: "\e910";
+  }
+  .bc-icon-checkbox-checked:before {
+    content: "\e911";
+  }
+  .bc-icon-checkbox-indeterminate:before {
+    content: "\e913";
+  }
+  .bc-icon-clear:before {
+    content: "\e914";
+  }
+  .bc-icon-clock:before {
+    content: "\e915";
+  }
+  .bc-icon-close:before {
+    content: "\e916";
+  }
+  .bc-icon-dashboard:before {
+    content: "\e917";
+  }
+  .bc-icon-dot-empty:before {
+    content: "\e918";
+  }
+  .bc-icon-dot:before {
+    content: "\e919";
+  }
+  .bc-icon-drag:before {
+    content: "\e91a";
+  }
+  .bc-icon-edit:before {
+    content: "\e91b";
+  }
+  .bc-icon-financials:before {
+    content: "\e91c";
+  }
+  .bc-icon-help:before {
+    content: "\e91d";
+  }
+  .bc-icon-menu-collapsed:before {
+    content: "\e91e";
+  }
+  .bc-icon-menu-expanded:before {
+    content: "\e91f";
+  }
+  .bc-icon-more-horizontal:before {
+    content: "\e920";
+  }
+  .bc-icon-more-vertical:before {
+    content: "\e921";
+  }
+  .bc-icon-odds-feed:before {
+    content: "\e922";
+  }
+  .bc-icon-players:before {
+    content: "\e923";
+  }
+  .bc-icon-refresh:before {
+    content: "\e924";
+  }
+  .bc-icon-reports:before {
+    content: "\e925";
+  }
+  .bc-icon-reset:before {
+    content: "\e926";
+  }
+  .bc-icon-sb-management:before {
+    content: "\e927";
+  }
+  .bc-icon-search:before {
+    content: "\e928";
+  }
+  .bc-icon-small-dot-empty:before {
+    content: "\e929";
+  }
+  .bc-icon-small-dot:before {
+    content: "\e92a";
+  }
+  .bc-icon-sorting-down:before {
+    content: "\e92b";
+  }
+  .bc-icon-sorting-up:before {
+    content: "\e92c";
+  }
+  .bc-icon-stream:before {
+    content: "\e92e";
+  }
+  .bc-icon-tools:before {
+    content: "\e92f";
+  }
+  .bc-icon-user-management:before {
+    content: "\e930";
+  }
+  .bc-icon-csv:before {
+    content: "\e90c";
+  }
+  .bc-icon-excel:before {
+    content: "\eb03";
+  }
+  .bc-icon-pdf:before {
+    content: "\eb04";
+  }
+  .bc-icon-attribute:before {
+    content: "\eb0a";
+  }
+  .bc-icon-attribute-edit:before {
+    content: "\eb0b";
+  }
+  .bc-icon-divider-square:before {
+    content: "\eb0c";
+  }
+  .bc-icon-rules:before {
+    content: "\eb0d";
+  }
+  .bc-icon-info-square:before {
+    content: "\eb0e";
+  }
+  .bc-icon-action-compaign:before {
+    content: "\eb0f";
+  }
+  
